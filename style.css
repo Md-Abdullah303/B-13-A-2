@@ -492,7 +492,11 @@ footer h1 span {
     line-height: 24px;
     color: #fafafa96;
 }
-
+.footer-info2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .hide {
     display: none;
 }
@@ -524,65 +528,82 @@ footer h1 span {
         --para-font-size: 1rem;
         --para-font-width: 1rem;
     }
+
     .featured-video-container,
-    .meet-container{
+    .meet-container,
+    .footer-info {
         flex-direction: column;
     }
+
     nav ul,
     .nevbtn {
         display: none;
     }
+
     .hide {
         display: block;
     }
+
     nav {
         justify-content: space-between;
         gap: 0px;
     }
+
     .hero {
         background-size: cover;
         background-position: top center;
     }
+
     .hero-container {
         margin-top: 200px;
         width: 400px;
         text-align: center;
     }
+
     .hero-mic-img-bg {
         height: 200px;
         width: 200px;
     }
+
     .hero-mic-img-bg img {
         width: 80px;
     }
+
     .new {
         top: 5px;
         right: 5px;
     }
+
     .about-container,
     .about-container hr {
         width: 400px;
     }
+
     .about-container h1 {
         font-size: 32px;
     }
+
     .about-container p {
         line-height: 20px;
     }
+
     .about-container p,
     .about-container hr {
         margin-bottom: 40px;
     }
+
     .rating-container {
         display: grid;
         grid-template-columns: auto auto;
         gap: 40px;
     }
+
     #choose-header {
         text-align: center;
         margin-top: 40px;
         font-size: 32px;
     }
+
     .choose-container {
         gap: 16px;
         grid-template-columns: repeat(1, 1fr);
@@ -595,17 +616,34 @@ footer h1 span {
             "rich";
         margin-bottom: 40px;
     }
-    #featured-host{
+
+    #featured-host {
         padding: 40px 0;
     }
-    .featured-video-container{
+
+    .featured-video-container {
         gap: 16px;
     }
-    #featured-host{
+
+    #featured-host {
         gap: 60px;
     }
-    .meetContant{
+
+    .meetContant {
         align-items: center;
         text-align: center;
+    }
+
+    footer {
+        gap: 24px;
+        height: 300px;
+    }
+
+    footer h1 {
+        margin-top: 00px;
+    }
+
+    .footer-info {
+        gap: 16px;
     }
 }
