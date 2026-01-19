@@ -492,11 +492,13 @@ footer h1 span {
     line-height: 24px;
     color: #fafafa96;
 }
-.footer-info2{
+
+.footer-info2 {
     display: flex;
     align-items: center;
     gap: 40px;
 }
+
 .hide {
     display: none;
 }
@@ -524,6 +526,7 @@ footer h1 span {
 }
 
 @media screen and (max-width:576px) {
+
     .featured-video-container,
     .meet-container,
     .footer-info {
@@ -567,10 +570,11 @@ footer h1 span {
         top: 5px;
         right: 5px;
     }
+
     .about-container hr {
         width: 400px;
     }
-    
+
 
 
     .about-container h1 {
@@ -586,19 +590,22 @@ footer h1 span {
     .about-container hr {
         margin-bottom: 2.5rem;
     }
+
     .about-container hr {
         width: 80%;
     }
-    .tating-box p{
+
+    .tating-box p {
         margin-bottom: 20px;
     }
-    .about-container h1{
+
+    .about-container h1 {
         margin-top: 0px;
     }
 
     .rating-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
 
@@ -632,13 +639,16 @@ footer h1 span {
     #featured-host {
         gap: 60px;
     }
-    .featured-contant{
+
+    .featured-contant {
         padding: 1rem;
     }
-    .featured-videos{
+
+    .featured-videos {
         height: auto;
     }
-    .featured-heading{
+
+    .featured-heading {
         text-align: center;
     }
 
@@ -661,8 +671,100 @@ footer h1 span {
     .footer-info {
         gap: 1rem;
     }
-    .copyright{
+
+    .copyright {
         font-size: 12px;
     }
-    
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .featured-video-container,
+    .meet-container{
+        flex-direction: column;
+    }
+
+    nav {
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    nav ul li {
+        padding: 15px 25px;
+    }
+
+    .nevbtn {
+        margin-right: 20px;
+    }
+
+    .about-container hr {
+        width: 80%;
+    }
+
+    .about-container p {
+        line-height: 20px;
+        width: 80%;
+    }
+
+    .about-container h1 {
+        margin-top: 0px;
+    }
+
+    .about-container h1 {
+        font-size: 2rem;
+    }
+
+    .rating-container {
+        gap: 30px;
+    }
+
+    .tating-box i {
+        font-size: 1.5rem;
+    }
+
+    #choose-header {
+        margin-top: 40px;
+    }
+
+    .choose-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 25px;
+        grid-template-areas:
+            "audio  audio "
+            "global mobile"
+            "interviews rich";
+        margin-bottom: 40px;
+        width: 80%;
+    }
+    #featured-host{
+        gap: 65px;
+    }
+    footer {
+        gap: 24px;
+        height: 300px;
+    }
+
+    footer h1 {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    .footer-info {
+        gap: 1.8rem;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
 }
