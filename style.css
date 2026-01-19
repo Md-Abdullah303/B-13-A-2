@@ -91,10 +91,10 @@ nav ul li a {
     background-position: center;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-container {
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -579,12 +579,15 @@ footer h1 span {
 
     .about-container p {
         line-height: 20px;
-        width: 90%;
+        width: 80%;
     }
 
     .about-container p,
     .about-container hr {
         margin-bottom: 2.5rem;
+    }
+    .about-container hr {
+        width: 80%;
     }
     .tating-box p{
         margin-bottom: 20px;
@@ -602,7 +605,7 @@ footer h1 span {
     #choose-header {
         text-align: center;
         margin-top: 40px;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .choose-container {
@@ -632,6 +635,12 @@ footer h1 span {
     .featured-contant{
         padding: 1rem;
     }
+    .featured-videos{
+        height: auto;
+    }
+    .featured-heading{
+        text-align: center;
+    }
 
     .meetContant {
         align-items: center;
@@ -655,4 +664,5 @@ footer h1 span {
     .copyright{
         font-size: 12px;
     }
+    
 }
