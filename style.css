@@ -136,3 +136,53 @@ nav ul li a {
     border: 1px solid #00b460;
     color: #00b460;
 }
+
+
+/* about st here  */
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color1);
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-container h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.about-container p{
+    margin-bottom: 80px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff91;
+}
+.about-container hr{
+    width: 1200px;
+    color: #ffffff80;
+    margin-bottom: 80px;
+}
+.rating-container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.tating-box h1{
+    color: #00b460;
+    display: flex;
+    align-items: center;
+}
+.tating-box p{
+    font-size: 16px;
+    color: #ffffff8a;
+}
+.tating-box i{
+    font-size: 40px;
+}
