@@ -267,3 +267,109 @@ nav ul li a {
         "interviews interviews rich";
         margin-bottom: 120px;
 }
+
+
+/* featured-host st here  */
+#featured-host{
+    background-color: var(--bg-color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    padding: 120px 0;
+}
+.featured-episodes,
+.meet-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featured-heading{
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.featured-video-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 75%;
+    margin-top: 40px;
+}
+.featured-videos{
+    background-color: #250D44;
+    border-radius: 25px;
+    /* border: 1px solid red; */
+    height: 540px;
+}
+.featured-video iframe{
+    width: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.featured-contant{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.featured-contant h1{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.featured-contant p{
+    font-size: 16px;
+    color: #ffffffab;
+}
+.featured-contant-timebox{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.featured-contant-timebox p{
+    font-size: 16px;
+    color: #00FF88;
+}
+.meet-container{
+    background-color: #250D44;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 75%;
+    
+}
+.meet-container{
+    padding: 40px;
+    margin-top: 40px;
+}
+.meetImg img{
+    width: 200px;
+}
+.meetContant{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.meetContant h1{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.meetContant p{
+    font-size: 16px;
+    color: #ffffff91;
+    line-height: 24px;
+}
+.meet-infus{
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+.meet-infus a{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid #8f8f8f94;
+    border-radius: 50%;
+}
