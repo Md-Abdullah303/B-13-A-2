@@ -186,3 +186,84 @@ nav ul li a {
 .tating-box i{
     font-size: 40px;
 }
+
+
+/* choose st here  */
+#choose{
+    background-color: #230E3D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#choose-header{
+    margin-top: 120px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom:40px ;
+}
+
+.audio-quality,
+.mobile-friendly,
+.global-community,
+.exclusive-interviews,
+.rich-resources
+{
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #FFFFFF;
+}
+.audio-quality h1,
+.mobile-friendly h1,
+.global-community h1,
+.exclusive-interviews h1,
+.rich-resources h1{
+    font-size: 24px;
+}
+.audio-quality p,
+.mobile-friendly p,
+.global-community p,
+.exclusive-interviews p,
+.rich-resources p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff93;
+}
+.audio-quality{
+    grid-area: audio;
+    justify-content: center;
+}
+.mobile-friendly{
+    grid-area: mobile;
+}
+.global-community{
+    grid-area: global;
+}
+.exclusive-interviews{
+    grid-area: interviews;
+}
+.rich-resources{
+    grid-area: rich;
+}
+.interviwImg i{
+    font-size: 3rem;
+    color: #d30d97;
+}
+.choose-container{
+    height: 50%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+    grid-template-areas: 
+        "audio      mobile     mobile"
+        "audio      global     global"
+        "interviews interviews rich";
+        margin-bottom: 120px;
+}
